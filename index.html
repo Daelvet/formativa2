@@ -191,69 +191,78 @@
 <!--Fin Cobertura-->
 
   <!--Inicio contacto-->
-  <p>Contacto</p>
+  <section class="contacto-section">
+    <div class="cotizacion-section">
+  <p class="letra-amarilla">Contacto</p>
 
-  <h2>Solicita una cotización</h2>
+  <h2 class="letra-azul">Solicita una cotización</h2>
 
   <p>
     Completa el formulario y cuéntanos qué tipo de servicio necesita tu
     empresa.
   </p>
-
+  <div class="contacto-contenedor">
   <p><strong>Teléfono:</strong> (+56) 9 8835 5559</p>
   <p><strong>Email:</strong> Empresas.higiene.eirp@gmail.com</p>
   <p><strong>Dirección:</strong> José Antonio Aldunate 2811, Arica</p>
-
-  <form>
+</div>
+</div>
+  <form class="form-contenedor">
     <h3>Datos de contacto</h3>
 
     <div>
-      <label for="nombre">Nombre</label>
-      <input id="nombre" type="text" placeholder="Ingresa tu nombre" />
+      <label class="letra-azul" for="nombre">Nombre</label>
+      <input id="nombre" name="nombre" type="text" placeholder="Ingresa tu nombre" />
     </div>
 
     <div>
-      <label for="empresa">Empresa</label>
-      <input type="text" placeholder="Nombre de la empresa" />
+      <label class="letra-azul" for="empresa">Empresa</label>
+      <input id="empresa" name="empresa" type="text" placeholder="Nombre de la empresa" />
     </div>
 
     <div>
-      <label for="telefono">Teléfono</label>
-      <input type="tel" placeholder="Ej: +56 9 1234 5678" />
+      <label class="letra-azul" for="telefono">Teléfono</label>
+      <input id="telefono" name="telefono" type="tel" placeholder="Ej: +56 9 1234 5678" />
     </div>
 
     <div>
-      <label for="email">Correo electrónico</label>
-      <input type="email" placeholder="correo@empresa.cl" />
+      <label class="letra-azul" for="email">Correo electrónico</label>
+      <input id="email" name="email" type="email" placeholder="correo@empresa.cl" />
     </div>
 
     <div>
-      <label for="mensaje">Mensaje</label>
-      <textarea rows="5" placeholder="Describe tu requerimiento"></textarea>
+      <label class="letra-azul" for="mensaje">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" rows="5" placeholder="Describe tu requerimiento"></textarea>
     </div>
 
     <button type="submit">Enviar solicitud</button>
   </form>
+  </section>
   <!--Fin contacto-->
 
   <!--Inicio footer-->
-  <h2>EIRP+</h2>
+  <footer class="footer">
+    <div class="footer-contenido">
+  <h2 class="letra-amarilla">EIRP+</h2>
   <p>Soluciones limpias para obras seguras.</p>
-
+</div>
+<div class="footer-enlaces">
   <h3>Enlaces</h3>
   <a href="#inicio">Inicio</a>
   <a href="#nosotros">Nosotros</a>
   <a href="#servicios">Servicios</a>
   <a href="#cobertura">Cobertura</a>
   <a href="#contacto">Contacto</a>
-
+  </div>
+<div class="footer-contacto">
   <h3>Contacto</h3>
   <p>Arica, Chile</p>
   <p>Empresas.higiene.eirp@gmail.com</p>
   <p>(+56) 9 8835 5559</p>
-
+</div>
+<div class="footer-copyright">
   <p>© 2026 Higiene Industrial Plus EIRP. Todos los derechos reservados.</p>
-
+</div>
   </footer>
   <!--Fin footer-->
 </body>
