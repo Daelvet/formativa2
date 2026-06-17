@@ -11,7 +11,6 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  
 }
 
 .header {
@@ -55,21 +54,17 @@ body {
   background-image: url("../img/banner.png");
   background-position: center center;
   background-size: cover;
-  
-
 }
 
 .banner a.banner-link {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-
 
 .banner-items {
   display: flex;
   flex-direction: column;
-  padding: 0rem 20rem;  
-
+  padding: 0rem 20rem;
 }
 
 .letra-amarilla {
@@ -83,7 +78,7 @@ flex-direction: column;
 }
 
 .letra-verde {
-  color: #A3D9A5;
+  color: #a3d9a5;
   font-weight: bold;
 }
 
@@ -134,18 +129,17 @@ flex-direction: column;
 }
 
 .tarjetas {
-  display: flex;          
+  display: flex;
   justify-content: center;
-  gap: 30px;              
+  gap: 30px;
 }
 
-
 .tarjeta {
-  background-color: #ffffff; 
-  padding: 60px 20px;        
-  border-radius: 8px;        
-  width: 320px;              
-  text-align: left;          
+  background-color: #ffffff;
+  padding: 60px 20px;
+  border-radius: 8px;
+  width: 320px;
+  text-align: left;
 }
 
 .contenedor-valores {
@@ -158,14 +152,104 @@ flex-direction: column;
   background-color: white;
   padding: 2rem;
   border-radius: 8px;
-  width: 300px; 
-  text-align: left; 
+  width: 300px;
+  text-align: left;
 }
 
-.contenedor-valores h2, 
+.contenedor-valores h2,
 .contenedor-valores p {
   text-align: left;
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.servicios-section {
+  background-color: white;
+  padding: 4rem 1.5rem;
+}
+
+.contenedor-texto {
+  text-align: start;
+  max-width: 67rem;
+  margin: 0 auto 3.5rem auto;
+}
+
+.servicios-section h2 {
+  color: #003366;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.servicios-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.grid-servicios {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.tarjeta-servicio {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 21rem;
+  border: solid 0.1rem #D9D9D9;
+}
+
+.icono {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #003366;
+  background-color: #A3D9A5;
+  max-width: 40px;
+  border-radius: 0.5rem;
+}
+
+.tarjeta-servicio h3 {
+  color: #003366;
+  font-size: 1.3rem;
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+.tarjeta-servicio p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.tarjeta-servicio ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tarjeta-servicio ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  border-left: 2px solid #FFAA00;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background-color: #F9F9F9;
+  margin-bottom: 0.3rem;
+}
+
+.tarjeta-servicio ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0.3rem;
+  color: #003366;
+  font-size: 1.2rem;
+  line-height: 1;
 }
