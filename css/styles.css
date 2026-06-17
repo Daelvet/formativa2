@@ -33,7 +33,7 @@ body {
 .links-header ul {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  justify-content: space-between;
 }
 
 .links-header a {
@@ -114,23 +114,58 @@ flex-direction: column;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2rem;
-  padding: 0 5rem;
+  justify-content: space-between;
+  padding: 4rem 20rem;
 }
 
-.nosotros-texto {
+.texto-nosotros {
   flex: 1;
 }
 
 .about-imagen {
   flex: 1;
-  display: flex;
-  justify-content: flex-end;
 }
 
 .nosotros img {
-  max-width: 40rem;
+  max-width: 30rem;
   width: 100%;
   height: auto;
   border-radius: 1.2rem;
+}
+
+.tarjetas {
+  display: flex;          
+  justify-content: center;
+  gap: 30px;              
+}
+
+
+.tarjeta {
+  background-color: #ffffff; 
+  padding: 60px 20px;        
+  border-radius: 8px;        
+  width: 320px;              
+  text-align: left;          
+}
+
+.contenedor-valores {
+  background-color: #003366;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.tarjetas div {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 300px; 
+  text-align: left; 
+}
+
+.contenedor-valores h2, 
+.contenedor-valores p {
+  text-align: left;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
