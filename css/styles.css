@@ -113,15 +113,24 @@ flex-direction: column;
 .nosotros {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 5rem;
+}
+
+.nosotros-texto {
+  flex: 1;
+}
+
+.about-imagen {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nosotros img {
-  max-width: 30rem;
+  max-width: 40rem;
   width: 100%;
   height: auto;
   border-radius: 1.2rem;
-}
-
-.texto-nosotros {
-  padding: 0 22rem;
 }
