@@ -3,7 +3,9 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -15,6 +17,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.boton-amarillo {
+  color: #003366;
+  background-color: #ffaa00;
+  border-radius: 1.2rem;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 
 .links-header ul {
@@ -31,4 +41,22 @@ body {
 .header img {
   height: 48px;
   width: auto;
+}
+
+.letra-azul {
+  color: #003366;
+}
+
+.banner {
+  background-image: url("../img/banner.png");
+  background-position: center center;
+  background-size: cover;
+
+}
+
+.banner a {
+  display: flex;
+  flex-direction: column;
+  
+
 }
